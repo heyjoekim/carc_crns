@@ -20,10 +20,12 @@ def mean_bias_error(xx, yy):
     return(mbe)
 
 # constants
+crns_x = -211.265  # Detector x pos [m]
+crns_y = -167.261  # Detector y pos [m]
 
 # spline model
 # make spline model:
-HDPE_25mm = pd.read_csv('./DRFs/ResponseFunction_HDPE25mm.txt',
+HDPE_25mm = pd.read_csv('../data/DRFs/ResponseFunction_HDPE25mm.txt',
                         header=None,
                         sep='\t',
                         names=['E [MeV]','response'])
@@ -53,7 +55,7 @@ def readUranosNC(path, run_dir, crns_x, crns_y):
 
     # weight hits using DRF
     U = U.weight_by_detector_response(method='drf',
-                                      file = './DRFs/ResponseFunction_HDPE25mm.txt')
+                                      file = '../data/DRFs/ResponseFunction_HDPE25mm.txt')
     U.Hits['Prob'] = log_interp(U.Hits['Energy_[MeV]'])/100
     return(U, U.Hits)
 
