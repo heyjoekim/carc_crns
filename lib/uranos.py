@@ -5,6 +5,11 @@ uranos.py Lib for URANOS processing
     version: 1.0
 """
 
+"""
+Code slightly modified by:
+    Haejo Kim, Syracuse University
+"""
+
 import numpy as np
 from PIL import Image
 from scipy.ndimage.measurements import label as scipy_img_label

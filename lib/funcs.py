@@ -1,3 +1,12 @@
+"""
+Python File with functions and other variables
+    Author: Haejo Kim
+    Affiliation: Syracuse University
+    Date last edited: Apr. 30, 2024
+
+"""
+
+
 import numpy as np
 import pandas as pd
 import scipy
