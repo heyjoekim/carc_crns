@@ -1,8 +1,14 @@
 # carc_crns
 [![DOI](https://zenodo.org/badge/789058633.svg)](https://zenodo.org/doi/10.5281/zenodo.11648961)
 
-This contains some of the main data files and analysis tools used in the anaylsis of enter WRR analysis.
+This repository contains the main data files and analysis tools used in the WRR article "Evaluating Cosmic Ray Neutron Sensor Estimates of Snow Water Equivalent in a Prairie Environment using UAV Lidar". Our code (in the form of python and R notebooks) is provided. Appropriate date files and some of the figures from the analysis are provided.
 
-Our code (in the form of python and R notebooks) is provided.
+All other data sources that are not found in other repositories can be found here.
+- Snow Pit Data:
+- lidar data:
 
-Appropriate date files and some of the figures from the analysis are provided. All other data sources that are not found in other repositories can be found here.
+Breakdown of repo:
+- `/data`
+- `/figs`
+- `/lib`
+- `/uranos_files`
