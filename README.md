@@ -1,4 +1,5 @@
 # carc_crns
+[![DOI](https://zenodo.org/badge/789058633.svg)](https://zenodo.org/doi/10.5281/zenodo.11648961)
 
 This contains some of the main data files and analysis tools used in the anaylsis of enter WRR analysis.
 
