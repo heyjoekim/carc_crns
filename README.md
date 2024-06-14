@@ -15,4 +15,4 @@ Breakdown of repo:
 - `/lib`
     - supplemental python code used in analysis. Slightly modified python code from [URANOS repo](https://www.gitlab.com/mkoehli/uranos)
 - `/uranos_files`
-    - URANOS model config files, input geometries, and outputs
+    - URANOS model config files, input geometries, and outputs files.
