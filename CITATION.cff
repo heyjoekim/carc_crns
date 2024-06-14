@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kim"
+  given-names: "Haejo"
+  orcid: "https://orcid.org/0009-0001-2892-7997"
+- family-names: "Tuttle"
+  given-names: "Sam"
+title: Data and Model Results for CRNS at the CARC
+version: v0.1.0-alpha
+doi: 10.5281/zenodo.11648962
+date-released: 2024-06-13
+url: https://github.com/heyjoekim/carc_crns/
